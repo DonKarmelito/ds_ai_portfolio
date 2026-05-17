@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.header-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-logo {
+    order: -1; /* logo nad nagłówkiem na telefonie */
+  }
+}
