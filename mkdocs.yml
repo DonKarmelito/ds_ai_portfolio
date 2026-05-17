@@ -3,6 +3,9 @@ site_author: Marcin Karmelita
 site_description: >-
   Portfolio projektów Data Science oraz AI
 
+repo_name: DonKarmelito/ds_ai_portfolio
+repo_url: https://github.com/DonKarmelito/ds_ai_portfolio
+
 theme:
   name: material
   future: false
